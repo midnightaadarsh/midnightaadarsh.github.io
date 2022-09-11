@@ -1,0 +1,984 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+        integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="aos/dist/aos.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>CS Remastered</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="zeoLK826In-bM1O5WsfYFHSHOAkOiZqrDSRLo3piN2k" />
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <!-- <script src="js/pace.min.js"></script> -->
+
+    <!-- favicons
+    ================================================== -->
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+
+    <header class="s-header">
+
+        <div class="logo">
+            <a class="smoothscroll" href="#home">
+                <img src="images/logo.svg" alt="Homepage" style="width:100px;position: relative;left: 10px;bottom:10px;"
+                    class="homelogo">
+                <img src="images/logo.svg" alt="Homepage" style="width:100px;position: relative;left: 200px;bottom:10px"
+                    class="homelogo2">
+            </a>
+        </div>
+        <nav class="navbar navbar-toggleable-md navbar-light">
+            <ul class="nav navbar-nav">
+                <a class="navbar-brand smoothscroll" href="#home" style="color:white">CS REMASTERED</a>
+                <li class="nav-item nav-item-1">
+                    <a class="nav-link smoothscroll" href="#about" style="color:white">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#why" style="color:white">Our Model</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#news" style="color:white">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#mission" style="color:white">Our Mission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#sponsors" style="color:white">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#leadership" style="color:white">Leadership</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#signup" style="color:white">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothscroll" href="#contact" style="color:white">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+        <nav class="header-nav">
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <div class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About Us</a></li>
+                    <li><a class="smoothscroll" href="#why" title="about">Our Model</a></li>
+                    <li><a class="smoothscroll" href="#mission" title="mission">Our Mission</a></li>
+                    <li><a class="smoothscroll" href="#mission" title="mission">Sponsors</a></li>
+                    <li><a class="smoothscroll" href="#leadership" title="leadership">Leadership</a></li>
+                    <li><a class="smoothscroll" href="#signup" title="signup">Get Involved</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                </ul>
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/csremastered"><i class="fa fa-facebook"
+                                style="color:black"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/CsRemastered"><i class="fa fa-twitter" style="color:black"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/csremastered/"><i class="fa fa-instagram"
+                                style="color:black"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home">
+        <div id="particles-js">
+            <div class="home-text" data-aos="fade-up">
+                <h1 class="home-title">CS Remastered</h1>
+                <h3 class="home-subhead">Inspiring Innovation</h3>
+            </div>
+        </div>
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+
+        <div class="col-md-6 section-header top" data-aos="fade-up">
+            <h1 class="display-1">Who We Are</h1>
+            <p class="about-desc" align=left>
+                CS Remastered is a <a href="images/501c3.png">501(c)(3)</a> nonprofit organization
+                that aims to bring completely free one-on-one
+                computer science mentoring to the next
+                generation of innovators.
+            </p>
+            <a class="smoothscroll" href="#signup">
+                <button type="button" class="btn btn-primary btn-circle btn-xl button" style="border:none"><i
+                        class="glyphicon glyphicon-list">GET INVOLVED ></button>
+            </a>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-up">
+            <img class="image" src="images/computer1.png">
+        </div>
+
+
+
+    </section>
+
+    <!--
+    ================================================== -->
+
+    <section class="s-counter ftco-section ftco-counter img" id="section-counter">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center mb-5">
+                <div class="text-center heading-section heading-section-white ftco-animate fadeInUp ftco-animated">
+                    <span class="subheading">OUR IMPACT</span>
+                </div>
+            </div>
+            <div class="row3 justify-content-center">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="140">300</strong>
+                                <span>Volunteers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="100">350</strong>
+                                <span class="text">Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="100">140</strong>
+                                <span>Weeks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <strong class="number" data-number="100">6</strong>
+                                <span class="text">Chapters</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="s-why">
+        <div class="col-md-6 image-slider" data-aos="fade-up">
+            <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active">
+                        <img src="images/classes/IMG_0265.jpg">
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0256.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0410.jpg">
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0257.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0260.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0259.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0263.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0413.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0407.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/classes/IMG_0411.jpg">
+                    </div>
+                </div>
+                <a href="#carouselExampleIndicators" class="left carousel-control" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a href="#carouselExampleIndicators" class="right carousel-control" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-slider" data-aos="fade-up">
+            <h1 class="display-4 top2" align="left">Our Unique Model</h1>
+            <p class="mission-text2" align="left">
+                CS Remastered was designed with one thing in mind: the student.
+                Our classes are designed to provide students with a comprehensive
+                immersion in computer science, while adapting to their own style and pace.
+            </p>
+
+            <div class="row rowmain whyrow" data-aos="fade-up">
+                <div class="col-md-6">
+                    <div class="age">
+                        <i class="material-icons repos2"
+                            style="position:relative; bottom:4rem;color:#0f80f2;font-size:50px">school</i>
+                        <i class="material-icons repos"
+                            style="float:left;position:relative;bottom:11rem;right:2rem;color:#0f80f2;font-size:50px">school</i>
+                        <h4 class="card-title2" style="margin-bottom: 5px;">Recommended Age</h4>
+                        <p class="mission-text3">Our classes are primarily designed for students between 10 and 16 years
+                            old.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="schedule">
+                        <i class="material-icons repos2"
+                            style="position:relative; bottom:4rem;color:#0f80f2;font-size:50px">schedule</i>
+                        <i class="material-icons repos"
+                            style="float:left;position:relative;bottom:11rem;right:2rem;color:#0f80f2;font-size:50px">schedule</i>
+                        <h4 class="card-title2" style="margin-bottom: 5px;">Schedule</h4>
+                        <p class="mission-text3">Our classes are generally held once a week throughout the year.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row rowmain" data-aos="fade-up">
+                <div class="col-md-6 move-up">
+                    <div class="age">
+                        <i class="material-icons repos2"
+                            style="position:relative; bottom:4rem;color:#0f80f2;font-size:50px">assignment</i>
+                        <i class="material-icons repos"
+                            style="float:left;position:relative;bottom:11rem;right:2rem;color:#0f80f2;font-size:50px">assignment</i>
+                        <h4 class="card-title2" style="margin-bottom: 5px;">Curriculum</h4>
+                        <p class="mission-text3">Our curriculums are fully adaptable to every student and include
+                            everything from the fundamentals
+                            of computer science to real world development.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 move-up">
+                    <div class="schedule">
+                        <i class="material-icons repos2"
+                            style="position:relative; bottom:4rem;color:#0f80f2;font-size:50px">location_on</i>
+                        <i class="material-icons repos"
+                            style="float:left;position:relative;bottom:11rem;right:2rem;color:#0f80f2;font-size:50px">location_on</i>
+                        <h4 class="card-title2" style="margin-bottom: 5px;">Our Locations</h4>
+                        <p class="mission-text3">Our classes are held at various libraries throughout NJ. We also have
+                            additional
+                            branches in California, Ohio, and are currently opening new ones in India and China.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="s-news">
+            <h1 class="display-2 display-2--dark" align="center">Media Coverage</h1>
+            <div class="row whyrow newsrow" data-aos="fade-up" style="text-align: center;width: 100%;">
+                <div class="col-lg-4" style="padding-top: 3rem;">
+                    <a href="https://www.csmonitor.com/USA/Society/2020/1202/This-teen-tutor-turns-computer-science-into-kids-stuff" target="_blank"><img class="hoverable" src="images/csm.png" alt="Card image cap" style="display: inline-block; padding-bottom: 2rem;"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="https://www.nj.com/togethernj/2020/09/nj-high-school-senior-giving-back-to-students-with-free-computer-science-lessons.html" target="_blank"><img class="hoverable" src="images/njcom.png" alt="Card image cap" style="display: inline-block; padding-bottom: 2rem; height: 200px;"></a>
+                </div>
+                <div class="col-lg-4" style="padding-top: 3rem;">
+                    <a href="https://communitynews.org/2020/11/04/cs-remastered-adapts-to-the-covid-era/" target="_blank"><img class="hoverable" src="images/wwpnews.png" alt="Card image cap" style="display: inline-block;"></a>
+                </div>
+            </div>
+    </section>
+
+
+    <!--
+    ================================================== -->
+    <section id='mission' class="s-mission">
+
+        <div class="intro-wrap">
+            <div class="section-header top" data-aos="fade-up">
+                <div class="col-md-8">
+                    <h3 class="subhead2" align="left">Our Mission Statement.</h3>
+                    <h1 class="display-2 display-2--dark" align="left">To change the way students think about computer
+                        science</h1>
+                </div>
+                <div class="col-md-8">
+                    <p class="mission-text" align=left>
+                        Each year more than 500,000 jobs in computer
+                        science go unfilled. Yet only about 35% of all
+                        high schools in the US even teach the subject.
+                        The ones that do often teach it in a rigid or
+                        one-directional approach, prioritizing
+                        memorization over understanding.
+                        When a subject as complex as computer
+                        science is taught in such an inflexible way,
+                        students are bound to run into obstacles
+                        understanding the material.
+                    </p>
+
+                    <p class="mission-text" align=left data-aos="fade-up">
+                        CS Remastered was founded with the goal
+                        of adopting a different approach to teaching computer
+                        science, one that emphasizes understanding the fundamentals
+                        along with the algorithmic side of CS, rather than
+                        simply memorizing syntax.
+                    </p>
+
+                    <p class="mission-text" align=left data-aos="fade-up">
+                        All of this is done in a one-on-one manner which
+                        ensures a constant student-mentor interaction, and allows
+                        students to ask important questions along the way.
+                    </p>
+                </div>
+
+            </div> <!-- end intro-wrap -->
+        </div>
+
+
+    </section> <!-- end s-works -->
+
+
+    <section class="s-sponsors" id="sponsors">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center mb-5">
+                <div class="text-center heading-section heading-section-white ftco-animate fadeInUp ftco-animated">
+                    <span class="subheading">Sponsors & Partners</span>
+                </div>
+            </div>
+            <div class="row3 justify-content-center">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <img class="hoverable google" src="images/google.png" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <img class="hoverable homefront" src="images/homefront.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-12 col-md-12 col-lg-2 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <img class="hoverable girlswhocode" src="images/girlswhocode.png" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <img class="hoverable wolfram" src="images/wolfram.png" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sponsorblock">
+                        <div class="block-18 text-center">
+                            <div class="text">
+                                <img class="hoverable capgemini" src="images/capgemini.png" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ================================================== -->
+    <section id='leadership' class="s-leadership">
+
+        <div class="row content" data-aos="fade-up">
+            <div class="col-full">
+                <h1 style="text-align: center; font-weight: bold;">Executive Team</h1>
+            </div>
+            <div class="row"></div>
+
+            <div class="row content" data-aos="fade-up">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/samvit8.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Samvit Agarwal</h5>
+                            <p class="card-text">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/dev.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dev Rijhwani</h5>
+                            <p class="card-text">President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/akash.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Akash Bobba</h5>
+                            <p class="card-text">Vice President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/praj.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Prajval Manivan</h5>
+                            <p class="card-text">Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="row content" data-aos="fade-up">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="hoverable" src="images/samvit7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samvit Agarwal</h5>
+                        <p class="card-text">President & Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/akash.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Akash Bobba</h5>
+                        <p class="card-text">Vice President</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/bharat.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bharat Krishnan</h5>
+                        <p class="card-text">Vice President</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img class="hoverable" src="images/manan.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Manan Jain</h5>
+                        <p class="card-text">Logistics</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="collapsible" style="text-align: center;" data-aos="fade-up">
+            <i class="fa fa-plus-circle" style="font-size: 70px; padding-top: 20px; color:black"></i>
+        </div>
+
+        <div class="row content" data-aos="fade-up" id="collapseExample" style="display: none;">
+            <div class="col-full">
+                <h1 style="text-align: center; font-weight: bold;">Department Managers</h1>
+            </div>
+            <div class="row"></div>
+
+            <div class="row content" data-aos="fade-up">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/amisha.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Amisha Singh</h5>
+                            <p class="card-text">Media</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/josh.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Joshua Samuel</h5>
+                            <p class="card-text">Media</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/joseph.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Jospeh Vincent</h5>
+                            <p class="card-text">Initiatives</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/guha.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Guha Gurushankar</h5>
+                            <p class="card-text">Outreach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/danielhu.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Daniel Hu</h5>
+                                <p class="card-text">Outreach</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/dev.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Dev Rijhwani</h5>
+                                <p class="card-text">Finance</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/arnav.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Arnav Joshi</h5>
+                                <p class="card-text">Finance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/praj.JPG" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Prajval Manivan</h5>
+                                <p class="card-text">Resources</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 style="text-align: center; font-weight: bold;">Branch Leads</h1>
+                </div>
+            </div>
+    
+            <div class="row" data-aos="fade-up">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/lucky.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Leelanarasimha Konatham</h5>
+                            <p class="card-text">New Jersey</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/rohan.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Rohan Kannan</h5>
+                            <p class="card-text">North California</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="hoverable" src="images/Kenneth.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Kenneth Nguyen</h5>
+                            <p class="card-text">South California</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Nitin.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Nitin Sanga</h5>
+                            <p class="card-text">Ohio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" data-aos="fade-up">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/chirag.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Chirag Jain</h5>
+                            <p class="card-text">India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/priyanka.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Priyanka Rajan</h5>
+                            <p class="card-text">Girl Coders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="row content" data-aos="fade-up">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/manan.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Manan Jain</h5>
+                        <p class="card-text">Logistics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/amisha.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Amisha Singh</h5>
+                        <p class="card-text">Media</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/joseph.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jospeh Vincent</h5>
+                        <p class="card-text">Initiatives</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/guha.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Guha Gurushankar</h5>
+                        <p class="card-text">Outreach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse row" data-aos="fade-up">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/danielhu.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniel Hu</h5>
+                        <p class="card-text">Outreach</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/arnav.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Arnav Joshi</h5>
+                        <p class="card-text">Finance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/albert.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Albert Xiao</h5>
+                        <p class="card-text">Resources</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/praj.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Prajval Manivan</h5>
+                        <p class="card-text">Resources</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="collapse row" data-aos="fade-up">
+            <div class="col-full">
+                <h1 style="text-align: center; font-weight: bold;">Branch Leads</h1>
+            </div>
+        </div>
+
+        <div class="collapse row" data-aos="fade-up">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/lucky.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Leelanarasimha Konatham</h5>
+                        <p class="card-text">New Jersey</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/rohan.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rohan Kannan</h5>
+                        <p class="card-text">North California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="hoverable" src="images/Kenneth.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kenneth Nguyen</h5>
+                        <p class="card-text">South California</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/Nitin.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Nitin Sanga</h5>
+                        <p class="card-text">Ohio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse row" data-aos="fade-up">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/chirag.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Chirag Jain</h5>
+                        <p class="card-text">India</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+    </section>
+
+
+
+    <!--
+    ================================================== -->
+    <section id="signup" class="s-signup">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-3">Get Involved!</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row signup-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p align="center">
+                    Join CS Remastered as a student to learn, signup as a volunteer to start teaching, or take
+                    initiative and bring CS Remastered to a location near you.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="student-btn" data-aos="fade-up">
+            <a href="https://goo.gl/forms/Z8bvrM5diZBfTiq93">
+                <button class="full-width btn--primary btn-circle">BECOME A STUDENT</button>
+            </a>
+            <a href="https://goo.gl/forms/hzH06mJoa0n2DJcA2">
+                <button class="full-width btn--primary btn-circle">BECOME A VOLUNTEER</button>
+            </a>
+            <a href="https://forms.gle/22Tac2QnN7r53iDc8">
+                <button class="full-width btn--primary btn-circle">START A CHAPTER</button>
+            </a>
+        </div>
+
+
+    </section>
+
+
+    <!-- how it works
+    ================================================== -->
+    <section id='contact' class="s-works">
+        <div class="row row-diff" align="center">
+            <p style="color:#BDC2C6;margin-bottom:0px;font-size:20px;">West Windsor, NJ, 08550</p>
+            <p style="color:#BDC2C6;margin-bottom:0px;font-size:20px">team@csremastered.org
+                | (+1)732-823-8456</p>
+            <p style="color:#BDC2C6;font-size:20px;margin-bottom:0px">© CS Remastered 2020</p>
+        </div>
+    </section>
+    <!----end how it works-->
+
+
+    <!-- footer
+    ================================================== -->
+
+    <!-- <section id="footer" class="s-last">
+
+    <div class="row">
+
+            <div class="col-twelve last">
+                <div class="copyright last">
+                    <span>© CS Remastered 2019</span> 
+                </div>
+
+            </div>
+
+        </div> 
+        </section>
+         -->
+
+
+
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
